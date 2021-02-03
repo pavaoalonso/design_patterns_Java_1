@@ -9,7 +9,7 @@ public class TestesDescontos {
 
 	public static void main(String[] args) {
 
-		Orcamento orcamento = new Orcamento(new BigDecimal("10000"), 1);
+		Orcamento orcamento = new Orcamento(new BigDecimal("100"), 1);
 
 		System.out.println(CalculadoraDeDescontos.calcular(orcamento));
 
